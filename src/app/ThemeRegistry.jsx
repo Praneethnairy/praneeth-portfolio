@@ -1,5 +1,7 @@
 "use client";
 import { ThemeProvider, createTheme, CssBaseline } from "@mui/material";
+import { CacheProvider } from "@emotion/react";
+import emotionCache from "./emotionCache";
 
 const darkTheme = createTheme({
   palette: {
@@ -22,9 +24,11 @@ const darkTheme = createTheme({
 
 export default function ThemeRegistry({ children }) {
   return (
-    <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      {children}
-    </ThemeProvider>
+    <CacheProvider value={emotionCache}>
+      <ThemeProvider theme={darkTheme}>
+        <CssBaseline />
+        {children}
+      </ThemeProvider>
+    </CacheProvider>
   );
 } 

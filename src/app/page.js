@@ -223,7 +223,7 @@ export default function Home() {
                   <Typography variant="subtitle2" color="text.secondary">Jan 2024 - Jun 2024 · Remote</Typography>
                   <Typography variant="body2" mt={1}>
                     <span>• Created test scripts in Python for Smart Cache</span><br/>
-                    <span>• Extended Egnyte's internal libraries (pycsm, pysmb, pyscwin)</span><br/>
+                    <span>• Extended Egnyte&#39;s internal libraries (pycsm, pysmb, pyscwin)</span><br/>
                     <span>• Platform-specific testing (Linux, Windows)</span>
                   </Typography>
                 </CardContent>
