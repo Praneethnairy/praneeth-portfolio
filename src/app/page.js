@@ -209,11 +209,11 @@ export default function Home() {
                   <Typography variant="h6">Jr. Software Engineer, Egnyte</Typography>
                   <Typography variant="subtitle2" color="text.secondary">Jul 2024 - Present · Remote</Typography>
                   <Typography variant="body2" mt={1}>
-                    • Engineered back-end modules for Smart Cache system<br/>
-                    • Built RESTful services using Go (Golang)<br/>
-                    • Extended Smart Cache SNS with C-based integrations<br/>
-                    • Produced maintainable, production-ready code<br/>
-                    • Peer reviews, unit testing, root cause analysis
+                    <span>• Engineered back-end modules for Smart Cache system</span><br/>
+                    <span>• Built RESTful services using Go (Golang)</span><br/>
+                    <span>• Extended Smart Cache SNS with C-based integrations</span><br/>
+                    <span>• Produced maintainable, production-ready code</span><br/>
+                    <span>• Peer reviews, unit testing, root cause analysis</span>
                   </Typography>
                 </CardContent>
               </HoverCard>
@@ -222,9 +222,9 @@ export default function Home() {
                   <Typography variant="h6">Software Engineer Intern, Egnyte</Typography>
                   <Typography variant="subtitle2" color="text.secondary">Jan 2024 - Jun 2024 · Remote</Typography>
                   <Typography variant="body2" mt={1}>
-                    • Created test scripts in Python for Smart Cache<br/>
-                    • Extended Egnyte's internal libraries (pycsm, pysmb, pyscwin)<br/>
-                    • Platform-specific testing (Linux, Windows)
+                    <span>• Created test scripts in Python for Smart Cache</span><br/>
+                    <span>• Extended Egnyte's internal libraries (pycsm, pysmb, pyscwin)</span><br/>
+                    <span>• Platform-specific testing (Linux, Windows)</span>
                   </Typography>
                 </CardContent>
               </HoverCard>
@@ -233,10 +233,10 @@ export default function Home() {
                   <Typography variant="h6">Web Development Intern, Stonovation</Typography>
                   <Typography variant="subtitle2" color="text.secondary">Jun 2023 - Dec 2023 · Remote</Typography>
                   <Typography variant="body2" mt={1}>
-                    • Improved web portal with React.js, Material-UI, Ant Design<br/>
-                    • Async data sync, reduced loading<br/>
-                    • Backend logic in Java for secure operations<br/>
-                    • Responsive layouts, accessibility, modular architecture
+                    <span>• Improved web portal with React.js, Material-UI, Ant Design</span><br/>
+                    <span>• Async data sync, reduced loading</span><br/>
+                    <span>• Backend logic in Java for secure operations</span><br/>
+                    <span>• Responsive layouts, accessibility, modular architecture</span>
                   </Typography>
                 </CardContent>
               </HoverCard>
